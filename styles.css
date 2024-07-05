@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+.logo h1 {
+    margin: 0;
+    color: #ff0000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+}
+
+#hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.btn:hover {
+    background-color: #cc0000;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    background-color: #222;
+    color: #fff;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #cc0000;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+}
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
